@@ -1,0 +1,112 @@
+.nav-container nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-container nav .logo-nav {
+  padding: 0;
+  padding-left: 10px;
+}
+.nav-container nav .logo-nav img {
+  width: 8vw;
+}
+.nav-container nav .menu {
+  display: flex;
+  gap: 25px;
+  padding-right: 20px;
+}
+.nav-container nav .menu ul li a {
+  font-size: 2rem;
+}
+
+main .hero {
+  display: flex;
+}
+main .hero .hero-title {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .hero .hero-title div h1 {
+  font-size: 7rem;
+}
+main .hero .hero-title div h2 {
+  color: whitesmoke;
+  font-size: 3.5rem;
+}
+main .hero .hero-image {
+  width: 50%;
+}
+main .hero .hero-image img {
+  margin: o auto;
+  width: 35vw;
+  border-radius: 16px;
+}
+main .product .product-section .product-card {
+  width: 30vw;
+}
+main .product .product-section .product-card .image-product img {
+  width: 25vw;
+}
+main .product .product-section .product-card h3 {
+  font-size: 2rem;
+}
+main .catalogue .catalogue-image img {
+  width: 50vw;
+}
+main .about-us {
+  padding: 90px 5px;
+  display: flex;
+}
+main .about-us .about-us-text {
+  width: 50%;
+}
+main .about-us .about-us-text h2 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+main .about-us .about-us-text p {
+  font-size: 2rem;
+  padding: 20px 30px;
+}
+main .about-us .about-us-img {
+  width: 50%;
+}
+main .about-us .about-us-img img {
+  width: 40vw;
+}
+main .contact {
+  border-top: 1px solid black;
+  padding: 60px 40px;
+  display: flex;
+}
+main .contact .contact-image {
+  width: 50%;
+}
+main .contact .contact-image img {
+  width: 40vw;
+}
+main .contact .contact-title {
+  width: 50%;
+}
+main .contact .contact-title p {
+  font-size: 2rem;
+  padding: 30px 0;
+}
+main .contact .contact-title a button {
+  width: 300px;
+}
+
+footer .social-media h3, footer .number h3 {
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 10px 0;
+}
+footer .social-media p, footer .number p {
+  font-size: 2rem;
+  font-weight: 600;
+}
+footer .logo-footer img {
+  width: 10vw;
+}/*# sourceMappingURL=desktop.css.map */

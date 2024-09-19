@@ -12,7 +12,7 @@
     }
     .logo{
         min-width: 80px;
-        max-width: 220px;
+        max-width: 150px;
     }
     .text-bg h1{
         font-size: 40px;
@@ -28,7 +28,7 @@
         text-align: center;
     }
     .call_now2 span {
-        font-size: 21px;
+        font-size: 18px;
     }
     .call_now span {
         font-size: 35px;
@@ -38,33 +38,19 @@
     }
     .primary-button{
         width: 300px;
-    }
-    .titlepage h2 {
-        font-size: 35px;
     }
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
     .text-img{
         max-width: 500px;
+        min-width: 300px;
+    }
+    .text-bg h1{
+        font-size: 50px;
     }
     .logo{
         width: 150px;
-    }
-    .call_now2 span {
-        font-size: 21px;
-    }
-    .call_now span {
-        font-size: 35px;
-    }
-    .call_now h3{
-        font-size: 20px;
-    }
-    .primary-button{
-        width: 300px;
-    }
-    .titlepage h2 {
-        font-size: 35px;
     }
 }
 

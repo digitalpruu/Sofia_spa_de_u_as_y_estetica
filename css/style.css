@@ -323,12 +323,67 @@
      text-align: center;
 }
 /*--------------------------------------------------------------------- header area ---------------------------------------------------------------------*/
-nav.main-menu {
+ .logo_section {
+     text-align: center;
+}
+ .logo {
+     float: left;
+}
+ nav.main-menu {
      float: right;
      margin-left: 0;
 }
-nav ul li a:hover{
-     color:#000;
+ .menu-area-main li:hover a, .menu-area-main li:focus a {
+     color: white;
+}
+ .menu-area-main li.active a {
+     color: white;
+}
+ .right_cart_section {
+     float: right;
+     width: auto;
+}
+ .right_cart_section ul {
+     float: left;
+     min-height: auto;
+     margin: 0;
+     padding: 12px 0 0;
+}
+ .right_cart_section .cart_icons {
+     padding: 18px 0 0;
+}
+ .main-menu ul>li nth:child(5) a {
+     padding-right: 0px;
+}
+ .right_cart_section ul li {
+     float: left;
+     font-size: 17px;
+     font-weight: 400;
+     color: #fff;
+     margin-right: 30px;
+}
+ .right_cart_section ul.cart_update li {
+     font-size: 13px;
+     color: #ccc;
+     line-height: normal;
+     margin: 0;
+     font-weight: 300;
+}
+ .right_cart_section ul.cart_update li span {
+     font-size: 18px;
+     font-weight: 300;
+     color: #fff;
+     line-height: 21px;
+}
+ .right_cart_section ul li i {
+     margin-right: 10px;
+     margin-top: 5px;
+     float: left;
+     color: #fff;
+     font-size: 21px;
+}
+ .right_cart_section ul li a {
+     color: #fff;
 }
 /*-- end header middle --*/
  .top-bar-info {
@@ -918,9 +973,17 @@ nav ul li a:hover{
 /* --------------------------------------------------------------------- top banner area ---------------------------------------------------------------------*/
 /*--------------------------------------------------------------------- layout new css ---------------------------------------------------------------------*/
  .header-top {
-     background: linear-gradient(207.8deg, #fdcae1 16.69%, #fdcae1 100%);
+     background: linear-gradient(207.8deg, #fe2323 16.69%, #ff7a7a 100%);
      padding-bottom: 90px;
      width: 100%;
+}
+.logo a img{
+     width: 200px;
+     height: 200px;
+     border-radius: 50%;
+}
+.logo a{
+     margin-bottom: 20px;
 }
  .header {
      position: absolute;
@@ -928,14 +991,25 @@ nav ul li a:hover{
      width: 100%;
      padding: 40px 40px 40px 40px;
 }
+ .logo a {
+     font-size: 40px;
+     font-weight: bold;
+     text-transform: uppercase;
+     color: #fff;
+     line-height: 40px;
+}
+
+.text-img figure img{
+     border-radius: 16px;
+}
  .d_flex {display: flex; align-items: center; justify-content: center;}
  .text-bg h1 {
      color: #000;
-     padding-top: 50px;
+     padding-top: 110px;
      font-size: 75px;
      line-height: 94px;
-    padding-bottom: 25px;
-    font-weight: bold;
+     padding-bottom: 25px;
+     font-weight: bold;
 }
  
  .text-bg span {
@@ -968,10 +1042,6 @@ nav ul li a:hover{
      bottom: auto;
      padding: 0;
      margin-top: 90px 
-}
-.text-img figure img{
-     width: 550px;
-     border-radius: 16px;
 }
  .img_bg {
      text-align: center;
@@ -1014,7 +1084,7 @@ nav ul li a:hover{
 .Best .titlepage h2::before {
      position: absolute;
      content: "";
-     background: #fdcae1;
+     background: linear-gradient(207.8deg, #fe2323 16.69%, #ff7a7a 100%);
      border-radius: 20px;
      width: 20px;
      height: 20px;
@@ -1025,7 +1095,7 @@ nav ul li a:hover{
  .Best .titlepage h2::after {
      position: absolute;
 content: "";
-background: #fdcae1;
+background: linear-gradient(207.8deg, #fe2323 16.69%, #ff7a7a 100%);
 border-radius: 20px;
 width: 20px;
 height: 20px;
@@ -1221,7 +1291,7 @@ display: block;
 }
 
 .primary-button{
-     background: linear-gradient(207.8deg, #fdcae1 16.69%, #fdcae1 100%);
+     background: linear-gradient(207.8deg, #fe2323 16.69%, #ff7a7a 100%);
      border-radius: 8px;
      width: 400px;
      height: 80px;
@@ -1241,78 +1311,10 @@ display: block;
 }
 /** end contact section **/
 
-
-/** clients **/
- .clients {
-     background: #fff;
-     padding: 90px 0px;
-}
- .clients .titlepage {padding-bottom: 30px;}
- .clients_slider .carousel-caption {position: inherit;}
- .carousel-indicators .active {background: #ecc161;}
- .carousel-indicators li {
-     background: #000000;
-     width: 20px;
-     height: 20px;     
-}
-
- 
-
-.img_box {
-    display: flex;
-    align-content: center;
-    align-items: center;
-}
-.pa_rile {
-     padding-left: 0;
-     padding-right: 0;
-}
-.img_box i img {padding-right: 25px; display: inline-block; width: 65px;}
-.img_box figure {margin: 0;}
-
-.img_box::after {
-    position: absolute;
-content: "";
-right: -23px;
-transform: rotate(5deg);
-width: 46px;
-background: url(../images/4.png);
-background-repeat: no-repeat;
-height: 146px;
-top: 92px;
-
-}
-.joe {
-    text-align: left;
-}
-.joe h3 {
-     font-size: 20px; 
-     line-height: 20px; 
-     color: #fdcae1; 
-     font-weight: bold;
-     padding: 0px 0px 20px 30px;
-}
-
-.joe p {
-   color: #fff;
-display: inline-block;
-padding: 25px;
-background: #000;
-margin-bottom: 30px;
- }
-.carousel-control-next-icon, .carousel-control-prev-icon {display: none;}
-.carousel-indicators {
-    left: inherit;
-    margin-right: 0;
-    bottom: 60px;
-}
-
-/** end clients **/
- 
 /** footer **/
 .footer {
-     background: linear-gradient(207.8deg, #fdcae1 16.69%, #fdcae1 100%);
-     padding-top: 70px;
+     background: linear-gradient(207.8deg, #fe2323 16.69%, #ff7a7a 100%);
+     padding-top: 90px;
 }
 .call_now2 h3 {
 font-size: 30px;
@@ -1350,10 +1352,6 @@ padding-bottom: 33px;
      font-weight: bold;
      color: #fff;
 }
-
 .text-img{
      max-width: 700px;
-}
-.text-img figure img{
-     border-radius: 16px;
 }
