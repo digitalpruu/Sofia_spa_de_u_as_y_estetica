@@ -40,8 +40,8 @@ main .hero .hero-image {
 }
 main .hero .hero-image img {
   margin: o auto;
-  width: 35vw;
-  border-radius: 16px;
+  width: 100%;
+  border-radius: 0;
 }
 main .product .product-section .product-card {
   width: 30vw;
@@ -58,23 +58,25 @@ main .catalogue .catalogue-image img {
 main .about-us {
   padding: 90px 5px;
   display: flex;
+  align-items: center;
 }
 main .about-us .about-us-text {
   width: 50%;
 }
 main .about-us .about-us-text h2 {
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: bold;
+  padding-bottom: 30px;
 }
 main .about-us .about-us-text p {
   font-size: 2rem;
-  padding: 20px 30px;
+  padding: 10px 30px;
 }
 main .about-us .about-us-img {
   width: 50%;
 }
 main .about-us .about-us-img img {
-  width: 40vw;
+  width: 35vw;
 }
 main .contact {
   border-top: 1px solid black;
@@ -98,15 +100,16 @@ main .contact .contact-title a button {
   width: 300px;
 }
 
-footer .social-media h3, footer .number h3 {
-  font-size: 3rem;
-  font-weight: bold;
-  padding: 10px 0;
+footer {
+  flex-direction: row;
+  justify-content: space-between;
 }
-footer .social-media p, footer .number p {
-  font-size: 2rem;
-  font-weight: 600;
+footer .social-media .social-icons a img {
+  width: 5vw;
+}
+footer .social-media .social-icons a img:hover {
+  transform: scale(1.1);
 }
 footer .logo-footer img {
-  width: 10vw;
+  width: 15vw;
 }/*# sourceMappingURL=desktop.css.map */

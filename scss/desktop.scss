@@ -50,8 +50,8 @@ main{
             width: 50%;
             img{
                 margin: o auto;
-                width: 35vw;
-                border-radius: 16px;
+                width: 100%;
+                border-radius: 0;
             }
         }
     }
@@ -83,21 +83,23 @@ main{
     .about-us{
         padding: 90px 5px;
         display: flex;
+        align-items: center;
         .about-us-text{
             width: 50%;
             h2{
-                font-size: 3rem;
+                font-size: 4rem;
                 font-weight: bold;
+                padding-bottom: 30px;
             }
             p{
                 font-size: 2rem;
-                padding: 20px 30px;
+                padding: 10px 30px;
             }
         }
         .about-us-img{
             width: 50%;
             img{
-                width: 40vw;
+                width: 35vw;
             }
         }
     }
@@ -129,23 +131,23 @@ main{
 
 
 footer{
+    flex-direction: row;
+    justify-content: space-between;
     .social-media{
-        h3{
-            font-size: 3rem;
-            font-weight: bold;
-            padding: 10px 0;
+        .social-icons{
+            a{
+                img{
+                    width: 5vw;
+                    &:hover{
+                        transform: scale(1.1);  
+                    }
+                }
+            }
         }
-        p{
-            font-size: 2rem;
-            font-weight: 600;
-        }
-    }
-    .number{
-        @extend .social-media;
     }
     .logo-footer{
         img{
-            width: 10vw;
+            width: 15vw;
         }
     }
 }

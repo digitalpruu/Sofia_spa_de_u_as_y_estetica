@@ -49,10 +49,6 @@ html {
 main {
   width: 100%;
 }
-main .hero {
-  padding: 60px 0;
-  background-color: #ffa6ce;
-}
 main .hero .hero-title {
   color: black;
   padding-bottom: 32px;
@@ -92,7 +88,7 @@ main .product .product-section {
   scroll-snap-type: x proximity;
 }
 main .product .product-section .product-card {
-  background-color: #318eff;
+  background-color: rgba(243, 78, 152, 0.568627451);
   scroll-snap-align: center;
   margin: 0 10px;
   width: 40vw;
@@ -115,7 +111,6 @@ main .product .product-section .product-card h3 {
   font-size: 1.5rem;
 }
 main .catalogue {
-  border-top: 1px solid black;
   padding: 60px 0;
   text-align: center;
 }
@@ -128,8 +123,8 @@ main .catalogue img {
   width: 100%;
 }
 main .about-us {
-  border-top: 1px solid black;
-  padding: 60px 0;
+  padding-top: 30px;
+  background-color: rgba(255, 166, 206, 0.6666666667);
 }
 main .about-us .about-us-text {
   text-align: center;
@@ -150,7 +145,7 @@ main .about-us .about-us-img img {
      object-fit: cover;
 }
 main .contact {
-  padding: 60px 0;
+  padding: 20px 0;
   text-align: center;
   border-top: 1px solid black;
 }
@@ -183,37 +178,39 @@ main .contact .contact-title a button:hover {
 }
 
 footer {
-  padding: 20px 20px;
+  padding: 0 10px;
   background: linear-gradient(207.8deg, #f34e98 16.69%, #ffa6ce 100%);
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
 }
-footer .social-media h3, footer .number h3 {
-  color: black;
-  font-size: 2rem;
-  font-weight: bold;
-  padding: 10px 0;
+footer .social-media {
+  text-align: center;
 }
-footer .social-media p, footer .number p {
-  color: aliceblue;
-  padding: 5px 0;
-  font-size: 1rem;
-  font-weight: 600;
+footer .social-media h3 {
+  padding: 15px 0;
+  font-size: 2.5rem;
+  color: antiquewhite;
 }
-footer .social-media p:hover, footer .number p:hover {
-  color: black;
-  transform: scale(1.1);
+footer .social-media .social-icons a img {
+  width: 15vw;
+  padding: 5px 5px;
 }
-footer .social-media p a, footer .number p a {
-  color: aliceblue;
-}
-footer .social-media p a:hover, footer .number p a:hover {
-  color: black;
+footer .social-media .social-icons a img:hover {
   transform: scale(2.1);
 }
+footer .number {
+  text-align: center;
+  padding: 30px 0;
+}
+footer .number p {
+  font-size: 2rem;
+  font-weight: 600;
+  color: aliceblue;
+}
 footer .logo-footer {
-  padding: 15px 0;
+  padding: 5px 0;
 }
 footer .logo-footer img {
-  width: 20vw;
+  width: 35vw;
 }/*# sourceMappingURL=styles.css.map */
