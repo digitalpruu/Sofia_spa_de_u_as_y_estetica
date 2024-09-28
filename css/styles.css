@@ -16,7 +16,7 @@ html {
 .nav-container {
   width: 100%;
   height: auto;
-  background: #f34e98;
+  background: rgba(243, 78, 152, 0.7647058824);
 }
 .nav-container nav .logo-nav {
   display: flex;
